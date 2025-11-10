@@ -59,7 +59,7 @@ _As a user, I want to view an overview of my data on the home screen so that I c
 
 **Priority:** High.
 
-### **Introductory Guide:**
+### **Introductory guide:**
 
 _As a new user, I want to see a quick introductory guide on the home screen so that I can learn how to use the app._
 
@@ -72,7 +72,7 @@ _As a new user, I want to see a quick introductory guide on the home screen so t
 
 ## Detail Screen
 
-### **Select Event:**
+### **Select event:**
 
 _As a user, I want to access detailed information on a selected event so that I can read and/or edit details of any event in a day._
 
@@ -83,7 +83,7 @@ _As a user, I want to access detailed information on a selected event so that I 
 
 **Priority:** High.
 
-## Integrate Persistent Data
+## Persistent Data
 
 ### **Store user data:**
 
@@ -104,3 +104,60 @@ _As a user, I want to save my preferences such as dark mode so that the app reme
 1. User preferences should be saved in local storage.
 
 **Priority:** Medium.
+
+## External API
+
+### **Event location:**
+
+_As a user, I want to add a location to an event so that I can plan where should I go during my day._
+
+**Acceptance Criteria:**
+
+1. Google Maps API should be integrated to the system.
+2. User should have the option to add a location when editing event details.
+
+**Priority:** Low.
+
+## Settings Menu
+
+### **Access settings:**
+
+_As a user, I want to access a settings menu so that I can adjust preferences at my convenience._
+
+**Acceptance Criteria:**
+
+1. App should have a icon in the top corner that opens a settings menu.
+
+**Priority:** High.
+
+## Settings Screen
+
+### **Notification preferences:**
+
+_As a user, I want to adjust notification preferences so that I only receive alerts relevant to me._
+
+**Acceptance Criteria:**
+
+1. User should be able to turn off different notification categories, like promotional alerts.
+
+**Priority:** High.
+
+### **Dark mode:**
+
+_As a user, I want to be able to enable dark mode so that I can reduce eye strain during nighttime._
+
+**Acceptance Criteria:**
+
+1. User should be able to select between light or dark mode, or set for folowing the system's theme.
+
+**Priority:** Low.
+
+### **Email and password change:**
+
+_As a user, I want to update my email and password on the settings screen so that I can keep my account secure._
+
+**Acceptance Criteria:**
+
+1. User should be able to change the email and password used for log in, as long as a valid email is used.
+
+**Priority:** High.
