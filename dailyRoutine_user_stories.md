@@ -161,3 +161,36 @@ _As a user, I want to update my email and password on the settings screen so tha
 1. User should be able to change the email and password used for log in, as long as a valid email is used.
 
 **Priority:** High.
+
+## Notifications
+
+### **Daily reminder**
+
+_As a user, I want to receive a daily reminder notification so that I don’t forget my tasks_
+
+**Acceptance Criteria:**
+
+1. App should send a push notification at the starting time of the users' routine.
+
+**Priority:** Medium.
+
+### **Event reminder**
+
+_As a user, I want to receive a reminder notification for a specific event so that I don’t forget a task I recently added to my routine_
+
+**Acceptance Criteria:**
+
+1. App should send a push notification at the starting time of an event selected by the user.
+
+**Priority:** Medium.
+
+### **New features**
+
+_As an admin, I want send notifications for relevant new features in the app so that the user can have the opportunity to engage with it._
+
+**Acceptance Criteria:**
+
+1. App should send a push notification when a new feature is implemented.
+2. User should be able to turn off this notifications.
+
+**Priority:** Low.
