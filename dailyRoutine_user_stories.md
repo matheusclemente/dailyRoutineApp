@@ -69,3 +69,38 @@ _As a new user, I want to see a quick introductory guide on the home screen so t
 2. This pop-up should be accessible throught a help button, in case the user wants to consult it again.
 
 **Priority:** Low.
+
+## Detail Screen
+
+### **Select Event:**
+
+_As a user, I want to access detailed information on a selected event so that I can read and/or edit details of any event in a day._
+
+**Acceptance Criteria:**
+
+1. Selecting an event should open detailed information, such as starting time and repeatability.
+2. User should be able to edit details.
+
+**Priority:** High.
+
+## Integrate Persistent Data
+
+### **Store user data:**
+
+_As a user, I want to stay logged in between sessions, so that I don't need to enter my account information every session._
+
+**Acceptance Criteria:**
+
+1. User details should be saved in local storage.
+
+**Priority:** Medium.
+
+### **Store user preferences:**
+
+_As a user, I want to save my preferences such as dark mode so that the app remembers my settings._
+
+**Acceptance Criteria:**
+
+1. User preferences should be saved in local storage.
+
+**Priority:** Medium.
